@@ -22,20 +22,21 @@
 }
 .nav {
   display: table;
-  width: 450px;
+  width: 320px;
   margin: 0 auto;
   }
 
 .featurepic {
-  height: 700px;
+  height: auto;
   position: relative;
 	clear: both;
 	overflow: hidden;
+    background-color: #F0F0F0;
 }
 
 .featurepic img {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
   position: relative;
   z-index: 1;
 }
@@ -187,18 +188,31 @@ p {
 a:link {
   font-family: "Exo 2" sans-serif;
   color: white;
-  text-transform: uppercase;
   text-transform: full-width;
-  letter-spacing: 1px;
   text-decoration: none;
+  letter-spacing: 1px;
+  border-bottom: 2px solid aquamarine;
 }
 a:hover {
   text-decoration: none;
-  border-bottom: 2px solid aquamarine;
+  border-bottom: 4px solid aquamarine;
 }
 a:visited {
   color: whitesmoke;
 }
+.introtext a {
+  font-family: "Exo 2" sans-serif;
+  color: black;
+  text-transform: full-width;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-bottom: 2px solid aquamarine;
+}
+.introtext a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid aquamarine;
+}
+
 .image-link {
   text-decoration: none;
 }
