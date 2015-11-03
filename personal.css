@@ -28,7 +28,7 @@
 
 .featurepic {
   height: auto;
-  width: auto;
+  max-width: 100%;
   position: relative;
 	clear: both;
 	overflow: hidden;
