@@ -6,6 +6,7 @@
   position: fixed;
   z-index: 3;
 }
+
 #body {
   margin: 0;
 }
@@ -22,7 +23,7 @@
 }
 .nav {
   display: table;
-  width: 320px;
+  width: 395px;
   margin: 0 auto;
   }
 
