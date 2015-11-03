@@ -38,7 +38,7 @@
 
 .featurepic img {
   height: auto;
-  max-width: 100%;
+  width: 100%;
   position: relative;
   z-index: 1;
 }
