@@ -7,9 +7,6 @@
   z-index: 3;
 }
 
-#body {
-  margin: 0;
-}
 #footer1 {
   height: 80px;
   background-color: #C0C0C0;
@@ -23,7 +20,6 @@
 }
 .nav {
   display: table;
-  width: 38%;
   margin: 0 auto;
   }
 
@@ -78,12 +74,12 @@
   clear: both;
 }
 .introtext {
-  width: 44%;
+  width: 50%;
   margin: 0 auto;
   padding-bottom: 40px;
 }
 .littlerecstext {
-  width: 44%;
+  width: 42%;
   margin: 0 auto;
   padding-bottom: 40px;
   font-size: 20px;
@@ -130,7 +126,6 @@
 }
 .footerlogos {
   display: table;
-  width: 19%;
   margin: 0 auto;
 }
 .footerlogos a:hover {
@@ -144,20 +139,21 @@
 }
 .footermail {
   display: table;
-  width: 19%;
   margin: 0 auto;
   padding-top: 22px;
 }
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
 ul li {
   display: inline;
   float: left;
   position: relative;
   padding-right: 30px;
-  font-family: "Exo 2" sans-serif;
-  color: white;
   text-transform: uppercase;
-  text-transform: full-width;
-  letter-spacing: 1px;
 }
 h1 {
   font-family: "Rock Salt" sans-serif;
