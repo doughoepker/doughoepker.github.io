@@ -1,7 +1,7 @@
 
 
 #header {
-  width: 100%;
+
   height: 60px;
   padding-top: 15px;
   background-color: #989898;
@@ -27,7 +27,7 @@
 
 .featurepic {
   height: auto;
-  width: 100%;
+
   position: relative;
 	clear: both;
 	overflow: hidden;
@@ -60,18 +60,18 @@
 
 .section1 {
   margin: 0 auto;
-  width: 100%;
+
   background-color: #F0F0F0;
   }
 
 .section2 {
   margin: 0 auto;
-  width: 100%;
+
 }
 
 .section3 {
   margin: 0 auto;
-  width: 100%;
+
   background-color: #484848;
   clear: both;
 }
