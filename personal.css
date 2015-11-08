@@ -1,3 +1,5 @@
+
+
 #header {
   width: 100%;
   height: 60px;
@@ -188,6 +190,10 @@ p {
   text-size: 20px;
   line-height: 1.78;
 }
+iframe {
+  width: 100%;
+  height: auto;
+}
 a:link {
   font-family: "Exo 2" sans-serif;
   color: white;
@@ -224,6 +230,17 @@ a.image-link {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) and (orientation: landscape) {
-
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .introtext {
+    width: 60%;
+  }
+  .col-1-3 {
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+    padding-bottom: 40px;
+  }
+  .littlerecstext {
+    width: 76%;
+  }
 }
