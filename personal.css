@@ -145,7 +145,6 @@
 
 body {
   margin: 0;
-  width: 100%;
 }
 
 img {
@@ -223,4 +222,8 @@ a:visited {
 a.image-link {
   border: 0 none;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+
 }
