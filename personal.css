@@ -286,6 +286,9 @@ a.image-link {
   .col-1-3 p {
     font-size: 21px;
   }
+  h1 {
+    font-size: 23px;
+  }
   .introtext {
     width: 85%;
   }
