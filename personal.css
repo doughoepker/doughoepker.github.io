@@ -260,6 +260,9 @@ a.image-link {
 }
 
 @media screen and (max-width: 414px) and (orientation: portrait) {
+  body {
+    width: 100%;
+  }
   p {
     font-size: 23px;
   }
@@ -270,7 +273,8 @@ a.image-link {
     display: inline;
     float: left;
     position: relative;
-    padding-right: 15px;
+    padding-right: 20px;
+    font-size: 0.8em;
     text-transform: uppercase;
   }
   .introtext {
