@@ -275,7 +275,7 @@ a.image-link {
   }
 }
 
-@media screen and (max-width: 414px) and (orientation: portrait) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
   body {
     width: 100%;
   }
@@ -307,7 +307,7 @@ a.image-link {
   }
 }
 
-@media screen and (max-width: 414px) and (orientation: landscape) {
+@media screen and (max-width: 500px) and (orientation: landscape) {
   p {
     font-size: 23px;
   }
