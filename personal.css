@@ -296,7 +296,7 @@ a.image-link {
 
 @media screen and (max-width: 414px) and (orientation: portrait) {
   body {
-    width: 100%;
+    width: auto;
   }
   header {
     width: auto;
@@ -323,7 +323,7 @@ a.image-link {
 
 @media screen and (max-width: 414px) and (orientation: landscape) {
   body {
-    width: 100%;
+    width: auto;
   }
   header {
     width: auto;
