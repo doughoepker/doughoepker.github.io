@@ -264,7 +264,6 @@ a.image-link {
   margin: 0 auto;
   padding-top: 22px;
 }
-
 @media screen and (max-width: 920px) {
   .introtext {
     width: 60%;
