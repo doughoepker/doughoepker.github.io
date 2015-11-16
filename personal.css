@@ -36,6 +36,7 @@ header li {
   -ms-flex: 1 0 auto; /* IE 10 */
   flex: 1 0 auto;
   list-style: none;
+  text-transform: uppercase;
   padding: 0.5em;
 }
 header old li {
@@ -125,9 +126,6 @@ a.image-link {
   text-decoration: none;
 }
 
-
-
-
 #footer1 {
   height: 80px;
   background-color: #C0C0C0;
@@ -147,16 +145,15 @@ a.image-link {
 
 .featurepic {
   height: auto;
-
   position: relative;
 	clear: both;
 	overflow: hidden;
-    background-color: #F0F0F0;
+  background-color: #F0F0F0;
 }
 
 .featurepic img {
   height: auto;
-  width: 100%;
+  max-width: 100%;
   position: relative;
   z-index: 1;
 }
@@ -319,9 +316,6 @@ a.image-link {
   }
   .littlerecstext {
     width: 85%;
-  }
-  .featurepic {
-    height: 620px;
   }
 }
 
