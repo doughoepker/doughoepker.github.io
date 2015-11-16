@@ -298,6 +298,9 @@ a.image-link {
   body {
     width: 100%;
   }
+  header {
+    width: auto;
+  }
   p {
     font-size: 23px;
   }
@@ -319,6 +322,12 @@ a.image-link {
 }
 
 @media screen and (max-width: 414px) and (orientation: landscape) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: auto;
+  }
   p {
     font-size: 23px;
   }
