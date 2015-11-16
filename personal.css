@@ -294,10 +294,7 @@ a.image-link {
   }
 }
 
-@media screen and (max-width: 414px) and (orientation: portrait) {
-  body {
-    width: auto;
-  }
+@media (max-width: 414px) and (orientation: portrait) {
   header {
     width: auto;
   }
@@ -321,10 +318,7 @@ a.image-link {
   }
 }
 
-@media screen and (max-width: 414px) and (orientation: landscape) {
-  body {
-    width: auto;
-  }
+@media (max-width: 414px) and (orientation: landscape) {
   header {
     width: auto;
   }
