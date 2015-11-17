@@ -297,3 +297,29 @@ a.image-link {
     width: 85%;
   }
 }
+@media (max-width: 414px) and (orientation: landscape) {
+  body {
+    min-width: 1020px;
+  }
+  p {
+    font-size: 23px;
+  }
+  .col-1-3 p {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  .introtext {
+    width: 85%;
+  }
+  .col-1-3 {
+    width: 70%;
+    margin: 0 auto;
+    float: none;
+    padding-bottom: 40px;
+  }
+  .littlerecstext {
+    width: 85%;
+  }
+}
