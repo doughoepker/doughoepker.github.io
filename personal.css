@@ -296,9 +296,7 @@ a.image-link {
 }
 
 @media (max-width: 414px) and (orientation: portrait) {
-  .header {
-    width: 414px;
-  }
+
   p {
     font-size: 23px;
   }
