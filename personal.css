@@ -297,10 +297,7 @@ a.image-link {
     width: 85%;
   }
 }
-@media (max-width: 414px) and (orientation: landscape) {
-  body {
-    min-width: 980px;
-  }
+@media (max-width: 568px) {
   p {
     font-size: 23px;
   }
