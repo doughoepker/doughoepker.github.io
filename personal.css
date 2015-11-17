@@ -39,6 +39,7 @@ header li {
   text-transform: uppercase;
   padding: 0.5em;
 }
+
 header old li {
   display: inline;
   float: left;
@@ -264,7 +265,7 @@ a.image-link {
   margin: 0 auto;
   padding-top: 22px;
 }
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
   .introtext {
     width: 60%;
   }
@@ -276,7 +277,7 @@ a.image-link {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .introtext {
     width: 60%;
   }
@@ -295,9 +296,7 @@ a.image-link {
 }
 
 @media (max-width: 414px) and (orientation: portrait) {
-  header {
-    width: auto;
-  }
+
   p {
     font-size: 23px;
   }
@@ -319,9 +318,7 @@ a.image-link {
 }
 
 @media (max-width: 414px) and (orientation: landscape) {
-  header {
-    width: auto;
-  }
+
   p {
     font-size: 23px;
   }
