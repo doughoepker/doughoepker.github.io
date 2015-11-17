@@ -282,7 +282,7 @@ a.image-link {
     font-size: 23px;
   }
   .col-1-3 p {
-    font-size: 21px;
+    font-size: 23px;
   }
   .introtext {
     width: 85%;
@@ -299,13 +299,13 @@ a.image-link {
 }
 @media (max-width: 414px) and (orientation: landscape) {
   body {
-    min-width: 1020px;
+    min-width: 980px;
   }
   p {
     font-size: 23px;
   }
   .col-1-3 p {
-    font-size: 21px;
+    font-size: 23px;
   }
   h1 {
     font-size: 23px;
