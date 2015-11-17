@@ -10,7 +10,7 @@ img {
   height: auto;
 }
 
-header {
+.header {
   height: 60px;
   padding-top: 15px;
   background-color: #989898;
@@ -19,7 +19,7 @@ header {
   z-index: 3;
 }
 
-header ul {
+.header ul {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
@@ -30,7 +30,7 @@ header ul {
   text-align: center;
 }
 
-header li {
+.header li {
   -webkit-box-flex: 1 0 auto; /* OLD - iOS 6-, Safari 3.1-6 */
   -webkit-flex: 1 0 auto; /* Safari 6.1+. iOS 7.1+, BB10 */
   -ms-flex: 1 0 auto; /* IE 10 */
@@ -40,7 +40,7 @@ header li {
   padding: 0.5em;
 }
 
-header old li {
+#header old li {
   display: inline;
   float: left;
   position: relative;
@@ -296,7 +296,9 @@ a.image-link {
 }
 
 @media (max-width: 414px) and (orientation: portrait) {
-
+  .header {
+    width: 414px;
+  }
   p {
     font-size: 23px;
   }
