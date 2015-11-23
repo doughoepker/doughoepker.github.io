@@ -32,7 +32,7 @@ img {
 }
 
 h1 {
-  font-family: "Rock Salt", cursive;
+  font-family: "Rock Salt" "Georgia";
   font-size: 28px;
   text-align: center;
   letter-spacing: 2px;
@@ -46,7 +46,7 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-family: "Rock Salt", cursive;
+  font-family: "Rock Salt" "Georgia";
   font-size: 28px;
   text-align: center;
   letter-spacing: 5px;
@@ -63,7 +63,7 @@ iframe {
   width: 100%;
   height: auto;
 }
-a:link {
+a:link, a:visited {
   font-family: "Arial" sans-serif;
   color: white;
   text-decoration: none;
@@ -74,9 +74,7 @@ a:hover {
   text-decoration: none;
   border-bottom: 4px solid #E6A9EC;
 }
-a:visited {
-  color: #E6A9EC;
-}
+
 .introtext a {
   font-family: "Lato" "Arial" sans-serif;
   color: black;
