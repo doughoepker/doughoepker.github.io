@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: "Rock Salt"
+  src: url(http://fonts.googleapis.com/css?family=Rock Salt);
+}
 
 body {
   margin: 0;
@@ -28,7 +31,7 @@ img {
 }
 
 h1 {
-  font-family: "Rock Salt" "Arial" sans-serif;
+  font-family: "Rock Salt", cursive;
   font-size: 28px;
   text-align: center;
   letter-spacing: 2px;
@@ -42,7 +45,7 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-family: "Rock Salt" "Arial" sans-serif;
+  font-family: "Rock Salt", cursive;
   font-size: 28px;
   text-align: center;
   letter-spacing: 5px;
