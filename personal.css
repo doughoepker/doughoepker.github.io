@@ -1,8 +1,11 @@
 @font-face {
-  font-family: "Rock Salt"
+  font-family: "Rock Salt";
   src: url(http://fonts.googleapis.com/css?family=Rock Salt);
 }
-
+@font-face {
+  font-family: "Lato";
+  src: url(http://fonts.googleapis.com/css?family=Lato);
+}
 body {
   margin: 0;
   width: 100%;
@@ -63,7 +66,7 @@ iframe {
   height: auto;
 }
 a:link {
-  font-family: "Exo 2" "Arial" sans-serif;
+  font-family: "Arial" sans-serif;
   color: white;
   text-transform: full-width;
   text-decoration: none;
