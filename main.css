@@ -185,6 +185,8 @@ a.image-link {
   background-color: #F0F0F0;
 }
 
+/* ----------- Media Queries ----------- */
+
 /* ----------- iPad ----------- */
 
 /* Portrait and Landscape */
@@ -210,6 +212,42 @@ a.image-link {
     .heropic h2 {
       font-size: 24px;
       width: 44%;
+    }
+    .about {
+      width: 70%;
+    }
+    .col-1-3 {
+      width: 100%;
+      padding: 0 23% 2em 23%;
+    }
+    .littlerecstext {
+      width: 70%;
+    }
+}
+
+/* ----------- Desktop ----------- */
+
+@media (min-device-width: 900px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    p {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    .heropic {
+      height: 900px;
+    }
+    .heropic h1 {
+      font-size: 54px;
+    }
+    .heropic h2 {
+      font-size: 28px;
+      width: 32%;
     }
     .about {
       width: 70%;
