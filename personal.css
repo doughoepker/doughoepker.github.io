@@ -36,14 +36,14 @@ img {
 .featurepic h1 {
   color: #003333;
   font-family: 'Rock Salt';
-  font-size: 5vmax;
+  font-size: 3vmax;
   margin: 0 auto;
 }
 
 
 .vertical-contain {
   display: table;
-  height: 63%;
+  height: 10%;
   width: 100%;
 }
 
