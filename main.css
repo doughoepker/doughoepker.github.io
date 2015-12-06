@@ -63,12 +63,13 @@ footer {
 .about {
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 0.5em;
+  padding-bottom: 2em;
 }
 
 .container {
   background-color: #F0F0F0;
   margin-bottom: 0;
+  padding-bottom: 26em;
 }
 
 .freelance {
@@ -84,6 +85,7 @@ footer {
 .littlerecs {
   background-color: lightgrey;
   clear: both;
+  padding-bottom: 2em;
 }
 
 .littlerecs h1 {
