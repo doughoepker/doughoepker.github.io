@@ -186,6 +186,13 @@ a.image-link {
   background-color: #F0F0F0;
 }
 
+.parent {
+  display: table;
+}
+.child {
+  display: table-cell;
+}
+
 /* ----------- Media Queries ----------- */
 
 /* ----------- iPad ----------- */
@@ -258,7 +265,7 @@ a.image-link {
       padding: 0 2%;
     }
     .container {
-      padding-bottom: 22em;
+      padding-bottom: 20em;
     }
     .littlerecstext {
       width: 60%;
