@@ -284,7 +284,7 @@ a.image-link {
   padding-top: 22px;
 }
 
-/*
+
 @media (max-width: 920px) {
   .introtext {
     width: 60%;
@@ -315,9 +315,10 @@ a.image-link {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 414px) and {
   body {
     min-width: 980px;
+    margin: 0;
   }
   p {
     font-size: 23px;
@@ -341,4 +342,3 @@ a.image-link {
     font-size: 23px;
   }
 }
-*/
