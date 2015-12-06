@@ -34,6 +34,17 @@ footer {
   background-color: gray;
 }
 
+a:link, a:visited {
+  font-family: 'Lato';
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid #b33996;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #b33996;
+}
+
 .heropic {
   background-image: url(Outdoor-records.jpg);
   background-position: center center;
@@ -138,7 +149,7 @@ footer {
   fill: #000000;
 }
 .footersvg:hover {
-  fill: #E238EC;
+  fill: #b33996;
 }
 .footermail {
   display: table;
