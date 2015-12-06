@@ -42,6 +42,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 975px;
+  width: auto;
   text-align: center;
 }
 
