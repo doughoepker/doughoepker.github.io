@@ -314,10 +314,9 @@ a.image-link {
 }
 
 @media (max-width: 414px) {
-/*  body {
-    min-width: 980px;
+  body {
+    min-width: 1020px;
   }
-*/
   p {
     font-size: 23px;
   }
