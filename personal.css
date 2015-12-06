@@ -126,6 +126,16 @@ a.image-link {
   }
 
 .featurepic {
+  background-image: url(Outdoor-records.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 975px;
+  text-align: center;
+}
+
+/*
+.featurepic {
   height: auto;
   position: relative;
 	clear: both;
@@ -139,6 +149,7 @@ a.image-link {
   position: relative;
   z-index: 1;
 }
+*/
 
 .featurepic .name {
   display: block;
