@@ -193,11 +193,20 @@ a.image-link {
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
+    p {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    h2 {
+      font-size: 22px;
+    }
     .heropic {
       height: 750px;
     }
     .heropic h1 {
-      font-style: 34px;
+      font-style: 38px;
     }
     .heropic h2 {
       font-size: 24px;
