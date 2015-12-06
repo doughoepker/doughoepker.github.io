@@ -242,7 +242,7 @@ a.image-link {
       font-size: 24px;
     }
     .heropic {
-      height: 900px;
+      height: 880px;
     }
     .heropic h1 {
       font-size: 54px;
@@ -269,7 +269,8 @@ a.image-link {
 /* ----------- Desktop ----------- */
 
 @media (min-device-width:1281px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (-webkit-min-device-pixel-ratio: 2) {
     p {
       font-size: 20px;
       line-height: 1.4em;
