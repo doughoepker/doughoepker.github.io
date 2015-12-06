@@ -80,6 +80,7 @@ a.image-link {
   padding-top: 20px;
   border-top-style: dashed;
   border-top-width: medium;
+  border-color: #1f5f39;
   width: 40%;
 }
 
@@ -103,7 +104,6 @@ a.image-link {
 .container {
   background-color: #F0F0F0;
   margin-bottom: 0 auto;
-  padding-bottom: 26em;
 }
 
 .freelance {
