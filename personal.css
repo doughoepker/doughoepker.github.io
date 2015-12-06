@@ -315,9 +315,9 @@ a.image-link {
   }
 }
 
-@media (max-width: 414px) and {
+@media (max-width: 414px) {
   body {
-    min-width: 980px;
+    width: 100%;
     margin: 0;
   }
   p {
