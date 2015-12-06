@@ -14,7 +14,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/*
 .header {
   height: 60px;
   padding-top: 15px;
@@ -30,6 +30,26 @@ img {
   position: relative;
   padding-right: 30px;
   text-transform: uppercase;
+}
+*/
+
+.featurepic h1 {
+  color: #003333;
+  font-family: 'Rock Salt';
+  font-size: 5vmax;
+  margin: 0 auto;
+}
+
+
+.vertical-contain {
+  display: table;
+  height: 63%;
+  width: 100%;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 h1 {
