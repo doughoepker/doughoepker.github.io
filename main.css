@@ -194,8 +194,11 @@ a.image-link {
     .heropic {
       height: 750px;
     }
-    .heropic h2 {
+    .heropic h1 {
       font-size: 3vmax;
+    }
+    .heropic h2 {
+      font-size: 2vmax;
       width: 50%;
     }
     .about {
