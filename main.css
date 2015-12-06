@@ -54,12 +54,12 @@ footer {
   color: #003333;
   font-family: 'Lato';
   font-size: 2vmax;
+  text-shadow: white 1px 1px;
   margin: 0 auto;
   padding-top: 20px;
   border-top-style: dashed;
   border-top-width: thin;
-  border-top-color: white;
-  width: 30%;
+  width: 40%;
 }
 
 .vertical-contain {
