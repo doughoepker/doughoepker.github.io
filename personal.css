@@ -317,8 +317,7 @@ a.image-link {
 
 @media (max-width: 414px) {
   body {
-    width: 100%;
-    margin: 0;
+    min-width: 980px;
   }
   p {
     font-size: 23px;
