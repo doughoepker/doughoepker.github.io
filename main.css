@@ -50,6 +50,18 @@ footer {
   margin: 0 auto;
 }
 
+.heropic h2 {
+  color: #003333;
+  font-family: 'Lato';
+  font-size: 2vmax;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top-style: dashed;
+  border-top-width: thin;
+  border-top-color: white;
+  width: 30%;
+}
+
 .vertical-contain {
   display: table;
   height: 63%;
