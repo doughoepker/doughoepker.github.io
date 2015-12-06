@@ -1,42 +1,3 @@
-/* ----------- iPad ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    p {
-      font-size: 18px;
-    }
-    h1 {
-      font-size: 36px;
-    }
-    h2 {
-      font-size: 22px;
-    }
-    .heropic {
-      height: 750px;
-    }
-    .heropic h1 {
-      font-style: 74px;
-    }
-    .heropic h2 {
-      font-size: 24px;
-      width: 44%;
-    }
-    .about {
-      width: 70%;
-    }
-    .col-1-3 {
-      width: 100%;
-      padding: 0 23% 2em 23%;
-    }
-    .littlerecstext {
-      width: 70%;
-    }
-}
-
-
 html {
   box-sizing: border-box;
 }
@@ -222,4 +183,42 @@ a.image-link {
   float: left;
   padding: 0 8% 2em 8%;
   background-color: #F0F0F0;
+}
+
+/* ----------- iPad ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    p {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    .heropic {
+      height: 750px;
+    }
+    .heropic h1 {
+      font-size: 38px;
+    }
+    .heropic h2 {
+      font-size: 24px;
+      width: 44%;
+    }
+    .about {
+      width: 70%;
+    }
+    .col-1-3 {
+      width: 100%;
+      padding: 0 23% 2em 23%;
+    }
+    .littlerecstext {
+      width: 70%;
+    }
 }
