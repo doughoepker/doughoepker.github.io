@@ -7,6 +7,8 @@
   src: url(http://fonts.googleapis.com/css?family=Lato);
 }
 
+/* ----------- General styles ----------- */
+
 html {
   box-sizing: border-box;
 }
@@ -18,7 +20,6 @@ html {
 body {
   margin: 0 auto;
 }
-
 
 h1 {
   color: black;
@@ -34,16 +35,12 @@ h2 {
   text-align: center;
 }
 
-
 p {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
 }
 
-footer {
-  text-align: center;
-  background-color: gray;
-}
+/* ------------- Links ------------ */
 
 a:link, a:visited {
   font-family: 'Lato';
@@ -63,6 +60,8 @@ a.image-link {
   border: 0 none;
   text-decoration: none;
 }
+
+/* ----------- Hero pic & message ----------- */
 
 .heropic {
   background-image: url(Outdoor-records.jpg);
@@ -104,11 +103,15 @@ a.image-link {
   vertical-align: middle;
 }
 
+/* ------------- About section ------------ */
+
 .about {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 2em;
 }
+
+/* ------------- Work section ------------- */
 
 .container {
   background-color: #F0F0F0;
@@ -125,6 +128,37 @@ a.image-link {
   padding-bottom: 0.5em;
   margin: 0;
 }
+
+/* --------------- Grid ------------- */
+
+/*
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+*/
+/*
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+*/
+
+.col-1-3 {
+  width: 100%;
+  float: left;
+  padding: 0 8% 2em 8%;
+  background-color: #F0F0F0;
+}
+
+.parent {
+  display: table;
+}
+
+.child {
+  display: table-cell;
+}
+
+/* ------------- Listen section ------------- */
 
 .littlerecs {
   background-color: lightgrey;
@@ -147,70 +181,57 @@ a.image-link {
   padding-bottom: 16px;
 }
 
+/* --------------- Footer ------------- */
+
+footer {
+  text-align: center;
+  background-color: gray;
+}
+
 #footer1 {
   height: 80px;
   padding-top: 15px;
   clear: both;
 }
+
 #footer2 {
   background-color: gray;
   height: 60px;
   clear: both;
 }
-.footerlogos {
-  display: table;
-  margin: 0 auto;
-}
-.footerlogos a:hover {
-  text-decoration: none;
-}
-.footersvg {
-  fill: #000000;
-}
-.footersvg:hover {
-  fill: #b33996;
-}
+
 .footermail {
   display: table;
   margin: 0 auto;
   padding-top: 22px;
 }
-/* Grid */
 
-/*
-[class*='col-'] {
-  float: left;
-  padding-right: 20px;
-}
-*/
-/*
-[class*='col-']:last-of-type {
-  padding-right: 0;
-}
-*/
-.col-1-3 {
-  width: 100%;
-  float: left;
-  padding: 0 8% 2em 8%;
-  background-color: #F0F0F0;
-}
+/* -------------- SVGs -------------- */
 
-.parent {
+.footerlogos {
   display: table;
+  margin: 0 auto;
 }
-.child {
-  display: table-cell;
+
+.footerlogos a:hover {
+  text-decoration: none;
+}
+
+.footersvg {
+  fill: #000000;
+}
+
+.footersvg:hover {
+  fill: #b33996;
 }
 
 /* ----------- Media Queries ----------- */
 
 /* ----------- iPad ----------- */
 
-/* Portrait and Landscape */
 @media only screen
   and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (max-device-width: 1024px) {
     p {
       font-size: 18px;
     }
@@ -244,7 +265,7 @@ a.image-link {
 
 /* ----------- Laptop ----------- */
 
-@media (min-device-width:1224px)
+@media (min-device-width:1025px)
   and (max-device-width: 1599px) {
     p {
       font-size: 20px;
