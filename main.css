@@ -181,6 +181,11 @@ a.image-link {
   padding-bottom: 16px;
 }
 
+.prettyugly {
+  height: 80%;
+  width: 80%;
+}
+
 /* --------------- Footer ------------- */
 
 footer {
